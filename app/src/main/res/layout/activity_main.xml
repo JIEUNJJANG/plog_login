@@ -40,12 +40,12 @@
                 android:layout_height="wrap_content"
                 android:text="ID"
                 android:textSize="20sp"
-                android:layout_marginLeft="55dp"/>
+                android:layout_marginLeft="50dp"/>
             <EditText
                 android:id="@+id/idTxt"
                 android:layout_gravity="center"
                 android:layout_width="300dp"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_margin="10dp"
                 android:textSize="25sp"
                 android:background="@drawable/rounded_stroke_square"/>
@@ -60,12 +60,12 @@
                 android:layout_height="wrap_content"
                 android:text="PASSWARD"
                 android:textSize="20sp"
-                android:layout_marginLeft="55dp"/>
+                android:layout_marginLeft="50dp"/>
             <EditText
                 android:id="@+id/pwTxt"
                 android:layout_width="300dp"
                 android:layout_gravity="center"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_margin="10dp"
                 android:textSize="25sp"
                 android:inputType="textPassword"
@@ -74,7 +74,7 @@
         <Button
             android:id="@+id/loginBtn"
             android:layout_width="300dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_margin="10dp"
             android:text="LOGIN"
             android:textSize="20dp"
