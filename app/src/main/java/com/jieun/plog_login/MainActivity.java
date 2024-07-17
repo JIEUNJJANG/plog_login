@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         id = findViewById(R.id.idTxt);
         pw = findViewById(R.id.pwTxt);
 
+
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
